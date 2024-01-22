@@ -1,4 +1,4 @@
-## Step 1
+## Step 01
 > [!IMPORTANT]
 > This guide is created using Proxmox as a bare-metal type-1 hypervisor. It also covers Debian 12 LXE (Container) and is applicable to VM (Virtual Machine).
 - [ ] Download Proxmox Virtual Environment from the official website: https://www.proxmox.com/en/
