@@ -3,6 +3,7 @@
 - [ ] Download Proxmox Virtual Environment from the official website: [Proxmox](https://www.proxmox.com/en/)
 - [ ] Create a bootable image with the ISO (avoid using Ventoy, as of January 2024, it doesn't work properly.)
 - [ ] Boot from your bootable device and initiate the Proxmox installation.
+- [ ] Select Instalation Method
 ![Screenshot 1](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/9262fb42-2e6e-4f8f-b85a-33373305b6fa)
 - [ ] Select Installation Drive
 ![Screenshot 2](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/effb23cc-51b9-4e6f-8a0a-f2582cd7f227)
