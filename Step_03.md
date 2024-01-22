@@ -35,18 +35,9 @@ setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 ```
 - [ ] Install PHP dependencies
-- Change into librenms user
-```bash
-su - librenms
-```
-- Run script
-```bash
-./scripts/composer_wrapper.php install --no-dev
-```
-- Make sure to exit and go back to "root" user or sudoer 
-```bash
-exit
-```
+- Change into librenms user ``` su - librenms ```
+- Run script ``` ./scripts/composer_wrapper.php install --no-dev ```
+- Make sure to exit and go back to "root" user or sudoer ``` exit ```
 - [ ] f
 - [ ] g
 - [ ] h
