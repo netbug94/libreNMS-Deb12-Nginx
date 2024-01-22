@@ -1,8 +1,9 @@
 ## Step 03 :shipit:
 ### LibreNMS install
+
 > [!IMPORTANT]
 > - OS -> Debian 12
-> - Web Server -> Nginx; For additional information on operating systems and web server options, please visit the official website: [LibreNMS](https://www.librenms.org/)
+> - Web Server -> Nginx; For additional information on OS and web server options, visit the official website: [LibreNMS](https://www.librenms.org/)
 > - **The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.**
 
 - [ ] Install packages:
@@ -20,8 +21,23 @@ cd /opt
 ```bash
 git clone https://github.com/librenms/librenms.git
 ```
-- [ ] d
-- [ ] e
+- [ ] Set permissions
+```bash
+chown -R librenms:librenms /opt/librenms
+```
+```bash
+chmod 771 /opt/librenms
+```
+```bash
+setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
+```
+```bash
+setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
+```
+- [ ] Install PHP dependencies
+Change into librenms user ```bash su - librenms ```
+Run script ```bash ./scripts/composer_wrapper.php install --no-dev ```
+Make sure to exit and go back to "root" user or sudoer ```bash exit ```
 - [ ] f
 - [ ] g
 - [ ] h
