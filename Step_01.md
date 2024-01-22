@@ -1,4 +1,4 @@
-<p :arrow_left: </a> align="start"> <a href="README.md">Back to Main Page</a>&nbsp; </p>
+<p :arrow_left; align="start"> <a href="README.md">Back to Main Page</a>&nbsp; </a> </p>
 
 <p align="start"> <a href="README.md">Back to Main Page</a>&nbsp; :arrow_left: </a> </p>
 
