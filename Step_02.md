@@ -1,11 +1,4 @@
-<p align="left"><a href="Step_01.md">Step 01</a></p>
 ## Step 02 :shipit:
 ### LibreNMS install
 
-
-<p align="start">
-    <a href="Step_01.md">Step 01</a>&nbsp;&nbsp;
-    <a href="Step_03.md">Step 03</a>
-</p>
-
-<p align="right"><a href="Step_03.md">Step 03</a></p>
+<p align="center"> <a href="Step_01.md">:arrow_left:&nbsp;&nbsp;Step 03</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Step_03.md">Step 03&nbsp;&nbsp;:arrow_right:</a></p>
