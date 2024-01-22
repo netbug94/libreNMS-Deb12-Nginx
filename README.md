@@ -1,6 +1,6 @@
 ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
 
-# Guide to LibreNMS Installation Using Proxmox, Virtualized Debian 12, and Nginx
+# LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx
 ### This guide includes:
 - Proxmox Installation
 - Debian 12 Virtual Installation
@@ -9,9 +9,9 @@
 - Smokeping Web UI Setup
 ## Steps:
 > [!IMPORTANT]
-> - Proxmox as a bare-metal type-1 hypervisor.
-> - Debian 12 LXC (Container) and is applicable to VMs (Virtual Machines).
-> - Nginx web server.
+> - Proxmox (8.1-1) as a bare-metal type-1 hypervisor.
+> - Debian (12) LXC (Container); applicable to Virtual Machine.
+> - Nginx web server (1.24.0).
 > - The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.
 
 - [ ] [Step 01](Step_01.md)
