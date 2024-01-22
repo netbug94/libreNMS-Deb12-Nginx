@@ -1,8 +1,4 @@
-<p align="center">Support the Official Sites: [LibreNMS][librenms] | [Debian][debian] | [Proxmox][proxmox]</p>
-
-[librenms]: https://docs.librenms.org/
-[debian]: https://www.debian.org/
-[proxmox]: https://www.proxmox.com/en/
+<p align="center">Support the Official Sites: [LibreNMS](https://docs.librenms.org/), [Debian](https://www.debian.org/), [Proxmox](https://www.proxmox.com/en/)</p>
 
 ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
 
