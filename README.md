@@ -12,7 +12,7 @@
 > This guide was created using the latest versions of the following components at the time of its creation (Jan/2024):
 > - Proxmox (8.1) as a bare-metal type-1 hypervisor.
 > - Debian (12) LXC (Container); applicable to Virtual Machine.
-> - Nginx web server (1.24.0).
+> - Nginx web server (1.24).
 > - The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.
 
 - [ ] [Step 01](Step_01.md)
