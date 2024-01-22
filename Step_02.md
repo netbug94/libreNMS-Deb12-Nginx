@@ -1,5 +1,4 @@
 ## Step 02 :shipit:
 ### LibreNMS install
 
-
-<p align="left"><a href="Step_01.md">Step 01 align="right"><a href="Step_03.md">Step 03</a></p>
+Step 1: [Link to Step 1](./Step_01.md) | Step 3: [Link to Step 3](./Step_03.md)
