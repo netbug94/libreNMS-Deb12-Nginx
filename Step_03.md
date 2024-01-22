@@ -53,11 +53,24 @@ mv composer-stable.phar /usr/bin/composer
 ```bash
 chmod +x /usr/bin/composer
 ```
-> End of "Steps"
-- [ ] g
-- [ ] h
-- [ ] i
-- [ ] j
+> [!IMPORTANT]
+> Once you have resolved the details mentioned above, proceed with the following steps:
+- [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
+- Search for area 
+```bash
+vi /etc/php/8.2/fpm/php.ini
+```
+```bash
+vi /etc/php/8.2/cli/php.ini
+```
+- [ ] Set the system timezone using the following command. Ensure to replace 'Etc/UTC' with your chosen option from above.
+```bash
+timedatectl set-timezone Etc/UTC
+```
+- [ ] Configure MariaDB:
+```bash
+vi /etc/mysql/mariadb.conf.d/50-server.cnf
+```
 - [ ] k
 - [ ] l
 - [ ] m
