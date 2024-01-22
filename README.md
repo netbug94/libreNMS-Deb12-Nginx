@@ -6,5 +6,5 @@
 - Smokeping Web UI
 
 ## Steps:
--[ ] [Step 01](Step_01.md)
+- [ ] [Step 01](Step_01.md)
 
