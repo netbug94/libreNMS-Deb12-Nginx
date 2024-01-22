@@ -10,7 +10,13 @@ apt install apt-transport-https lsb-release ca-certificates wget acl curl fping 
 ```bash
 useradd librenms -d /opt/librenms -M -r -s "$(which bash)"
 ```
-- [ ] c
+- [ ] Download LibreNMS
+```bash
+cd /opt
+```
+```bash
+git clone https://github.com/librenms/librenms.git
+```
 - [ ] d
 - [ ] e
 - [ ] f
