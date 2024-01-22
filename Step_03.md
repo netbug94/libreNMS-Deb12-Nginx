@@ -6,7 +6,10 @@
 ```bash
 apt install apt-transport-https lsb-release ca-certificates wget acl curl fping git graphviz imagemagick mariadb-client mariadb-server mtr-tiny nginx-full nmap php8.2-cli php8.2-curl php8.2-fpm php8.2-gd php8.2-gmp php8.2-mbstring php8.2-mysql php8.2-snmp php8.2-xml php8.2-zip python3-dotenv python3-pymysql python3-redis python3-setuptools python3-systemd python3-pip rrdtool snmp snmpd unzip whois
 ```
-- [ ] b
+- [ ] Add librenms user
+      ```bash
+      useradd librenms -d /opt/librenms -M -r -s "$(which bash)"
+      ```
 - [ ] c
 - [ ] d
 - [ ] e
