@@ -40,6 +40,7 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 - Exit librenms user ``` exit ```
 > [!IMPORTANT]
 > Make sure to exit and go back to "root" user or sudoer
+
 > [!ATTENTION]
 > If the above step works, disregard the next steps
  - Occasionally, when a proxy is utilized for internet access, the above script may encounter issues. In such cases, a workaround is to install the composer package manually. For a global installation:
