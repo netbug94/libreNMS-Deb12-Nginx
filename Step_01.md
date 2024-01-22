@@ -1,8 +1,7 @@
 <p align="left"><a href="README.md">Back to Main Page</a></p> :arrow_left:
 
 <p align="start">
-    <a href="README.md">Back to Main Page</a>&nbsp;&nbsp;
-    :arrow_left: </a>
+    <a href="README.md">Back to Main Page</a> :arrow_left: </a>
 </p>
 
 ## Step 01 :shipit:
