@@ -6,4 +6,5 @@ This guide includes:
 - Smokeping Integrations
 - Smokeping Web UI
 
-### libreNMS-Guide/Step_1.md
+### [Link to Step 1](Step_1.md)
+
