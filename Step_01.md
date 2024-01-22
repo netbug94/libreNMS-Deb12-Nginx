@@ -17,4 +17,4 @@
 
 
 <p align="center"> <a href="README.md">Main Page&nbsp;&nbsp;:arrow_right:</a></p>
-<p align="center"> <a href="README.md" style="text-align: right;">Main Page&nbsp;&nbsp;:arrow_right:</a></p>
+<p align="center"> <a href="README.md" style="text-align: right;">Main Page&nbsp;&nbsp;&#9654;</a></p>
