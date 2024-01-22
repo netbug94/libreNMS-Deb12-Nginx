@@ -6,7 +6,7 @@
 - [ ] Boot from your bootable device and initiate the Proxmox installation.
 - [ ] Select Instalation Method:
 ![Screenshot 1](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/9262fb42-2e6e-4f8f-b85a-33373305b6fa)
-- [ ] Select Installation Drive:
+- [ ] Select Installation Target/Drive:
 ![Screenshot 2](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/effb23cc-51b9-4e6f-8a0a-f2582cd7f227)
 - [ ] Select Location:
 ![Screenshot 3](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/817794ae-b4bc-4eb4-b0d4-ea32bded5cdf)
