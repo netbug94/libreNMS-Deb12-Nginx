@@ -1,4 +1,4 @@
-<p align="start"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Back to Main Page</a> </p>
+<p align="left"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Back to Main Page</a> </p>
 
 ## Step 01 :shipit:
 ### Proxmox install and setup
@@ -15,4 +15,4 @@
 - [ ] Network Setup
 ![Screenshot from 2024-01-21 22-57-18-copy](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/1f2374c8-7d0e-4536-b89a-53b94288f810)
 
-<p align="end"> <a href="Step_02.md">Step 02</a>&nbsp; :arrow_left: </a></p>
+<p align="right"> <a href="Step_02.md">Step 02</a>&nbsp; :arrow_left: </a></p>
