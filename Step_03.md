@@ -38,10 +38,10 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 - Change into librenms user ``` su - librenms ```
 - Run script ``` ./scripts/composer_wrapper.php install --no-dev ```
 - Exit librenms user ``` exit ```
-> [!IMPORTANT]
+> [!CAUTION]
 > Make sure to exit and go back to "root" user or sudoer
 
-> [!ATTENTION]
+> [!IMPORTANT]
 > If the above step works, disregard the next steps
  - Occasionally, when a proxy is utilized for internet access, the above script may encounter issues. In such cases, a workaround is to install the composer package manually. For a global installation:
 ```bash
