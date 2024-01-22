@@ -53,6 +53,7 @@ mv composer-stable.phar /usr/bin/composer
 ```bash
 chmod +x /usr/bin/composer
 ```
+> End of "Steps"
 - [ ] g
 - [ ] h
 - [ ] i
