@@ -12,3 +12,4 @@
 > The guide is created using Proxmox as a bare-metal type-1 hypervisor. It also covers Debian 12 LXE (Container) and is applicable to VM (Virtual Machine.)
 > The guide assumes you're a "root" user. If you're not, make sure to switch to root or be a sudoer.
 - [ ] [Step 01](Step_01.md)
+- [ ] [Step 02](Step_02.md)
