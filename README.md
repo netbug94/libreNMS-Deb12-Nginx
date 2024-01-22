@@ -6,5 +6,5 @@ This guide includes:
 - Smokeping Integrations
 - Smokeping Web UI
 
-### [Link to Step 1](Step_1.md)
+### Step 1(Step_1.md)
 
