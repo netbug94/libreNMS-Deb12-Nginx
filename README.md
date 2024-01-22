@@ -9,6 +9,7 @@
 - Smokeping Web UI Setup
 ## Steps:
 > [!IMPORTANT]
+> This guide was created using the latest versions of the following components available at the time of its creation.
 > - Proxmox (8.1) as a bare-metal type-1 hypervisor.
 > - Debian (12) LXC (Container); applicable to Virtual Machine.
 > - Nginx web server (1.24.0).
