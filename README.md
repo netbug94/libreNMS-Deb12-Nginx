@@ -6,8 +6,10 @@
 - Smokeping Integrations
 - Smokeping Web UI Setup
 
-<p style="text-align: center;">
- ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
+![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
+
+<p align="center">
+  <img src="![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)" alt="animated" />
 </p>
 
 ## Steps:
