@@ -60,6 +60,7 @@ chmod +x /usr/bin/composer
 ```bash
 vi /etc/php/8.2/fpm/php.ini
 ```
+- Repeat the same step for this file: 
 ```bash
 vi /etc/php/8.2/cli/php.ini
 ```
