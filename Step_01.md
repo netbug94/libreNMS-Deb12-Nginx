@@ -1,7 +1,7 @@
 ## Step 01 :shipit:
 ### Proxmox Virtual Environment install and setup 
 - [ ] Download Proxmox Virtual Environment from the official website: [Proxmox](https://www.proxmox.com/en/)
-- [ ] Create a bootable image with the ISO (avoid using Ventoy, as of January 2024, it doesn't work properly.)
+- [ ] Create a bootable image with the ISO (avoid using Ventoy, as of January 2024, proxmox ISO doesn't work properly with it.)
 - [ ] Ethernet (cable) connection is required; Wi-Fi is not supported.
 - [ ] Boot from your bootable device and initiate the Proxmox installation.
 - [ ] Select Instalation Method:
