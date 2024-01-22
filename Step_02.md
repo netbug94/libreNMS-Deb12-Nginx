@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-    <a href="Step_01.md" style="padding-right:500px;">Step 01</a>
+    <a href="Step_01.md" style="padding-end:500sp;">Step 01</a>
     <a href="Step_03.md">Step 03</a>
 </p>
 
