@@ -13,4 +13,4 @@
 - [ ] Network Setup
 ![Screenshot from 2024-01-21 22-57-18-copy](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/1f2374c8-7d0e-4536-b89a-53b94288f810)
 
-<p align="center"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Main Page</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Step_02.md">Step 02&nbsp; :arrow_right:</a></p>
+<p align="center"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Main Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Step_02.md">Step 02&nbsp; :arrow_right:</a></p>
