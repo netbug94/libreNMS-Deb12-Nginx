@@ -1,4 +1,4 @@
-<p align="left"><a href="README.md">Back to Main Page:arrow_left:</a></p>
+<p align="left"><a href="README.md">Back to Main Page</a></p> :arrow_left:
 
 ## Step 01 :shipit:
 ### Proxmox install and setup
