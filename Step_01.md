@@ -16,7 +16,7 @@
 <p align="center"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Main Page</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="Step_02.md">Step 02</a>&nbsp; :arrow_right: </a></p>
 
 
-<p align="center"> <a href="README.md" style="text-align: right;">Main Page&nbsp;&nbsp;arrow_right: </a></p>
+<a href="Step_02.md">Step 02&nbsp;:arrow_right:</a>
 <p align="center"> <a href="README.md" style="text-align: right;">Main Page&nbsp;&nbsp;&#9654;</a></p>
 
 
