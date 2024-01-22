@@ -42,7 +42,7 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 > Make sure to exit and go back to "root" user or sudoer
 
 > [!IMPORTANT]
-> If the above step works, disregard the next steps
+> If the above steps worked, disregard the next steps
  - Occasionally, when a proxy is utilized for internet access, the above script may encounter issues. In such cases, a workaround is to install the composer package manually. For a global installation:
 ```bash
 wget https://getcomposer.org/composer-stable.phar
