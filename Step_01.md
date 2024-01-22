@@ -1,5 +1,10 @@
 <p align="left"><a href="README.md">Back to Main Page</a></p> :arrow_left:
 
+<p align="start">
+    <a href="README.md">Back to Main Page</a>&nbsp;&nbsp;
+    <a :arrow_left: </a>
+</p>
+
 ## Step 01 :shipit:
 ### Proxmox install and setup
 - [ ] Download Proxmox Virtual Environment from the official website: [Proxmox](https://www.proxmox.com/en/)
