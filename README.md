@@ -1,4 +1,4 @@
-# My LibreNMS Guide :shipit: ![7639-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/886076af-4806-4d55-89f9-62fa5ce6a6cf)
+# My LibreNMS Guide :shipit: ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
 
 ### This guide includes:
 - Proxmox Installation
