@@ -1,9 +1,11 @@
 # My LibreNMS Guide
 
 ### This guide includes:
-- LibreNMS
+- Proxmox Installation
+- Debian 12 Virtual Installation
+- LibreNMS Installation
 - Smokeping Integrations
-- Smokeping Web UI
+- Smokeping Web UI Setup
 
 ## Steps:
 > [!IMPORTANT]
