@@ -3,7 +3,7 @@
 # LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx
 ### This guide includes:
 - Proxmox Installation
-- Debian 12 Virtual Installation
+- Debian Virtual Installation
 - LibreNMS Installation
 - Smokeping Integrations
 - Smokeping Web UI Setup
