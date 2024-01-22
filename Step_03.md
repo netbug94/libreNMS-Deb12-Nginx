@@ -56,7 +56,7 @@ chmod +x /usr/bin/composer
 > [!IMPORTANT]
 > Once you have resolved the details mentioned above, proceed with the following steps:
 - [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
-- Inside the editor, earch for the line ``` ;date.timezone = ``` remove ";" and add desired timezon; Example: ``` date.timezone =Etc/UTC ```
+- Inside the editor, earch for the line ``` ;date.timezone = ``` remove ``` ; ``` and add desired timezon; Example: ``` date.timezone =Etc/UTC ```
 ```bash
 vi /etc/php/8.2/fpm/php.ini
 ```
