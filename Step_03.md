@@ -213,7 +213,7 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
-- [ ] Now is the time to save your progress by making a backup [Next Step](Step_04.md)
+- [ ] Now is the time to save your progress by making a [checkpoint (backup)](Step_04.md)
 
 > [!TIP]
 > If things go wrong you can always go back your [checkpoint (backup)](Step_04.md)
