@@ -8,7 +8,8 @@
 - LibreNMS Installation
 - Smokeping Integration
 - Smokeping Web UI Setup
-## Steps:
+
+### Steps:
 > [!IMPORTANT]
 > This guide was created using the latest versions of the following components as of January 2024:
 > - Proxmox (version 8.1) as a bare-metal type-1 hypervisor.
