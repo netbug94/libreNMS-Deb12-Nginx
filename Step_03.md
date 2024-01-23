@@ -81,6 +81,8 @@ lower_case_table_names=0
 - Then restart MariaDB ``` systemctl enable mariadb ``` ``` systemctl restart mariadb ```
 -  Start MariaDB client ``` mysql -u root ```
 -  Your terminal should look a bit different since you are now logged into MariaDB; Add the following commands:
+> [!NOTE]
+> Remember to hit "enter" after pasting each command
 ```bash
 CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
