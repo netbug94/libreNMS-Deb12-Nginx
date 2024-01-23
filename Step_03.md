@@ -123,6 +123,30 @@ rm /etc/php/8.2/fpm/pool.d/www.conf
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
+- Don't freak out, yes the file should be empty at the beginning, we have to add
+```bash
+server {
+ listen      80;
+ server_name librenms.example.com;
+ root        /opt/librenms/html;
+ index       index.php;
+
+ charset utf-8;
+ gzip on;
+ gzip_types text/css application/javascript text/javascript application/x-javascript image/svg+xml text/plain text/xsd text/xsl text/xml image/x-icon;
+ location / {
+  try_files $uri $uri/ /index.php?$query_string;
+ }
+ location ~ [^/]\.php(/|$) {
+  fastcgi_pass unix:/run/php-fpm-librenms.sock;
+  fastcgi_split_path_info ^(.+\.php)(/.+)$;
+  include fastcgi.conf;
+ }
+ location ~ /\.(?!well-known).* {
+  deny all;
+ }
+}
+```
 - [ ] n
 - [ ] o
 - [ ] p
