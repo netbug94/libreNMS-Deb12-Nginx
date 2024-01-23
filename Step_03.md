@@ -73,6 +73,11 @@ timedatectl set-timezone Etc/UTC
 ```bash
 vi /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
+- Within the [mysqld] section add:
+```bash
+innodb_file_per_table=1
+lower_case_table_names=0
+```
 - [ ] k
 - [ ] l
 - [ ] m
