@@ -60,7 +60,7 @@ chmod +x /usr/bin/composer
 ```bash
 vi /etc/php/8.2/fpm/php.ini
 ```
-- Repeat the same step for this file: [Example file -> cli/php.ini](Resources/cli/php.ini)
+- Repeat the same step [Example file -> cli/php.ini](Resources/cli/php.ini)
 ```bash
 vi /etc/php/8.2/cli/php.ini
 ```
