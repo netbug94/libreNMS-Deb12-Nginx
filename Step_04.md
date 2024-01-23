@@ -2,7 +2,7 @@
 ## Container / Virtual Machine Checkpoint(Backups)
 
 > [!TIP]
-> If things go wrong you can always go back your checkpoint(backups)
+> If things go wrong you can always go back your checkpoint (backups)
 
 - [ ] k
 - [ ] l
