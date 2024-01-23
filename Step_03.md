@@ -106,6 +106,12 @@ cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
 vi /etc/php/8.2/fpm/pool.d/librenms.conf
 ```
 - Change [www] to ``` [librenms] ```
+- Change ``` user = www-data ``` and ``` group = www-data ``` to "librenms": 
+```bash
+user = librenms
+group = librenms
+```
+- Change ``` listen = /run/php/php8.2-fpm.sock ``` with ```bash listen = /run/php-fpm-librenms.sock ```
 - [ ] l
 - [ ] m
 - [ ] n
