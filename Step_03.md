@@ -97,6 +97,8 @@ GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
 ```bash
 exit
 ```
+> [!CAUTION]
+> Make sure to exit and go back to "root" user or sudoer
 - [ ] k
 - [ ] l
 - [ ] m
