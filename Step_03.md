@@ -191,6 +191,26 @@ systemctl restart snmpd
 ```bash
 cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 ```
-- [ ] q
-
+- [ ] Enable the scheduler
+```bash
+cp /opt/librenms/dist/librenms-scheduler.service /opt/librenms/dist/librenms-scheduler.timer /etc/systemd/system/
+```
+- Enable scheduler
+```bash
+systemctl enable librenms-scheduler.timer
+```
+- Start scheduler
+```bash
+systemctl start librenms-scheduler.timer
+```
+- [ ] Copy logrotate config
+```bash
+cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
+```
+- [ ] Web installer
+- Is time to open your browser and acces LibreNMS ``` http://192.168.0.0/install ```
+- The web installer might prompt you to create a config.php file in your librenms install location manually, copying the content displayed on-screen to the file. If you have to do this, please remember to set the permissions on config.php after you copied the on-screen contents to the file. Run
+```bash
+chown librenms:librenms /opt/librenms/config.php
+```
 <p align="center"> <a href="Step_02.md">:arrow_left:&nbsp;&nbsp;Step 02</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_04.md">Step 04&nbsp; :arrow_right:</a></p>
