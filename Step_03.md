@@ -115,8 +115,11 @@ group = librenms
 ```bash
 listen = /run/php-fpm-librenms.sock
 ```
-- [ ] l
-- [ ] m
+- [ ] If there are no other PHP web applications on this server, remove file www.conf
+```bash
+rm /etc/php/8.2/fpm/pool.d/www.conf
+```
+- [ ] Configure Web Server:
 - [ ] n
 - [ ] o
 - [ ] p
