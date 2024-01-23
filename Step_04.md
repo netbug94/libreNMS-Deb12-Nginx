@@ -1,6 +1,9 @@
 # Step 04 :shipit:
 ## Container / Virtual Machine Backup
 
+> [!TIP]
+> If things go wrong you can always go back your checkpoint(backups)
+
 - [ ] k
 - [ ] l
 - [ ] m
