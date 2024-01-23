@@ -1,6 +1,10 @@
 server {
  listen      80;
- server_name !!!!!!!!!!!!!!!!!!!!!!HOST IP ADDRESS GOES HERE!!!!!!!!!!!!!!!!!!!!!!;
+
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
+ server_name      replaceMe;
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
+
  root        /opt/librenms/html;
  index       index.php;
 
@@ -18,6 +22,8 @@ server {
  location ~ /\.(?!well-known).* {
   deny all;
  }
+
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
 # Smokeping Web UI
 location = /smokeping/ {
         fastcgi_intercept_errors on;
@@ -49,3 +55,4 @@ location ^~ /smokeping/ {
         gzip off;
 }
 }
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
