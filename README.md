@@ -27,4 +27,4 @@
 > - The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.
 
 ### This guide is not affiliated with any of these communities, companies, or teams.
-### Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/)
+<br>
