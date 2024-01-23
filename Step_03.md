@@ -93,7 +93,6 @@ CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';
 ```bash
 GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
 ```
-- Exit MariaDB client:
 ```bash
 exit
 ```
