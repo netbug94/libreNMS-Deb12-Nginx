@@ -1,7 +1,6 @@
 ## Step 04 :shipit:
 ### Smokeping Integration
 
-
 - [ ] k
 - [ ] l
 - [ ] m
