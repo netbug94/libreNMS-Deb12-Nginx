@@ -98,7 +98,13 @@ exit
 ```
 > [!CAUTION]
 > Make sure to exit and go back to "root" user or sudoer
-- [ ] k
+- [ ] Configure PHP-FPM [Example file -> librenms.conf](Resources/librenms.conf)
+```bash
+cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
+```
+```bash
+vi /etc/php/8.2/fpm/pool.d/librenms.conf
+```
 - [ ] l
 - [ ] m
 - [ ] n
