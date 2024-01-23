@@ -213,9 +213,9 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
-- [ ] Now is the time to take a snapshot or backup of your machine [Next Step](Step_04.md)
+- [ ] Now is the time to save your progress by making a backup [Next Step](Step_04.md)
 
 > [!TIP]
-> If things go wrong you can always go back to your checkpoints(snapshot/backups)
+> If things go wrong you can always go back your checkpoint(backups)
 
 <p align="center"> <a href="Step_02.md">:arrow_left:&nbsp;&nbsp;Step 02</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_04.md">Step 04&nbsp; :arrow_right:</a></p>
