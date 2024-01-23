@@ -65,7 +65,7 @@ vi /etc/php/8.2/fpm/php.ini
 ```bash
 vi /etc/php/8.2/cli/php.ini
 ```
-- [ ] Set the system timezone using the following command. Ensure to replace 'Etc/UTC' with your chosen option from above
+- [ ] Set the system timezone using the following command. Make sure to replace 'Etc/UTC' with your chosen option from above
 ```bash
 timedatectl set-timezone Etc/UTC
 ```
@@ -80,13 +80,13 @@ lower_case_table_names=0
 ```
 - Then restart MariaDB ``` systemctl enable mariadb ``` ``` systemctl restart mariadb ```
 -  Start MariaDB client ``` mysql -u root ```
--  Your terminal should look a bit different since you are now logged into MariaDB; Add the following commands
+-  Your terminal should appear different now that you are logged into MariaDB. Add the following commands
 > [!NOTE]
-> Remember to hit "enter" after pasting each command
+> Remember to press "Enter" after pasting each command
 ```bash
 CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
-- Make sure to change 'password' to something secure
+- Ensure to replace 'password' with a secure and unique passphrase
 ```bash
 CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';
 ```
@@ -123,7 +123,7 @@ rm /etc/php/8.2/fpm/pool.d/www.conf
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
-- Don't freak out, yes the file should be empty at the beginning, we have to add
+- Yes, don't panic; the file is currently empty. We need to add content
 ```bash
 server {
  listen      80;
