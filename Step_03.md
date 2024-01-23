@@ -119,7 +119,7 @@ listen = /run/php-fpm-librenms.sock
 ```bash
 rm /etc/php/8.2/fpm/pool.d/www.conf
 ```
-- [ ] Configure Web Server
+- [ ] Configure Web Server [Example file -> librenms.vhost](Resources/librenms.vhost)
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
