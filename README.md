@@ -1,6 +1,6 @@
 <div align="center">
   
-### ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
+### ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/) | [MariaDB](https://mariadb.org/) | [Nginx](https://www.nginx.com/) | [Smokeping](https://oss.oetiker.ch/smokeping/) ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
 </div>
 
 # LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx
