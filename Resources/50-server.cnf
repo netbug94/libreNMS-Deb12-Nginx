@@ -8,8 +8,10 @@
 # this is only for the mysqld standalone daemon
 [mysqld]
 
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
 innodb_file_per_table=1
 lower_case_table_names=0
+#!!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!! EDIT HERE !!!!!!!!!!!!!!!!!!!!!!
 
 #
 # * Basic Settings
