@@ -2,14 +2,14 @@
 
 # ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx
 
-### This guide includes:
+## This guide includes:
 - Proxmox Installation
 - Debian Virtual Setup
 - LibreNMS Installation
 - Smokeping Integration
 - Smokeping Web UI Setup
 
-### Steps:
+## Steps:
 > [!IMPORTANT]
 > This guide was created using the latest versions of the following components as of January 2024:
 > - Proxmox (version 8.1) as a bare-metal type-1 hypervisor.
