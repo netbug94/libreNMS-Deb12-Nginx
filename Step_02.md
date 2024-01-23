@@ -1,4 +1,4 @@
-# Step 02 :shipit:
+## Step 02 :shipit:
 ## Debian 12 container setup (works the same with virtual machine)
 - [ ] a
 - [ ] b
