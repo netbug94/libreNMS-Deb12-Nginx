@@ -111,7 +111,10 @@ vi /etc/php/8.2/fpm/pool.d/librenms.conf
 user = librenms
 group = librenms
 ```
-- Change ``` listen = /run/php/php8.2-fpm.sock ``` with ```bash listen = /run/php-fpm-librenms.sock ```
+- Change ``` listen = /run/php/php8.2-fpm.sock ``` with:
+```bash
+listen = /run/php-fpm-librenms.sock
+```
 - [ ] l
 - [ ] m
 - [ ] n
