@@ -78,6 +78,23 @@ vi /etc/mysql/mariadb.conf.d/50-server.cnf
 innodb_file_per_table=1
 lower_case_table_names=0
 ```
+- Then restart MariaDB ``` systemctl enable mariadb ``` ``` systemctl restart mariadb ```
+-  Start MariaDB client ``` mysql -u root ```
+-  Your terminal should look a bit different since you are now logged into MariaDB; Add the following commands:
+```bash
+CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+- Make sure to change 'password' to something secure:
+```bash
+CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';
+```
+```bash
+GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
+```
+- Exit MariaDB client:
+```bash
+exit
+```
 - [ ] k
 - [ ] l
 - [ ] m
