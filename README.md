@@ -1,6 +1,6 @@
 #### Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/)
 
-# LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0)
+# ![1477-capybara](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/4296fa98-e024-4ed7-9d23-8f414f94b5c0) LibreNMS Installation Guide Using Proxmox, Virtualized Debian, and Nginx
 
 ## This guide includes:
 - Proxmox Installation
@@ -23,5 +23,5 @@
 > - Nginx web server (version 1.24).
 > - The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.
 
-#### This guide is not affiliated with any of these communities, companies, or teams.
-#### Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/)
+### This guide is not affiliated with any of these communities, companies, or teams.
+### Support the Official Sites: [LibreNMS](https://www.librenms.org/) | [Debian](https://www.debian.org/) | [Proxmox](https://www.proxmox.com/en/)
