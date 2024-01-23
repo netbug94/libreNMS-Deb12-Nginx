@@ -69,7 +69,7 @@ vi /etc/php/8.2/cli/php.ini
 ```bash
 timedatectl set-timezone Etc/UTC
 ```
-- [ ] Configure MariaDB $[Example file -> 50-server.cnf](Resources/50-server.cnf):
+- [ ] Configure MariaDB [Example file -> 50-server.cnf](Resources/50-server.cnf):
 ```bash
 vi /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
