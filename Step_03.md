@@ -147,9 +147,48 @@ server {
  }
 }
 ```
-- [ ] n
-- [ ] o
-- [ ] p
+- Remove "default" file
+```bash
+rm /etc/nginx/sites-enabled/default
+```
+- Reload nginx
+```bash
+systemctl reload nginx
+```
+- Restart php
+```bash
+systemctl restart php8.2-fpm
+```
+- [ ] Enable lnms command completion
+```bash
+ln -s /opt/librenms/lnms /usr/bin/lnms
+```
+```bash
+cp /opt/librenms/misc/lnms-completion.bash /etc/bash_completion.d/
+```
+- [ ] Configure snmpd
+```bash
+cp /opt/librenms/snmpd.conf.example /etc/snmp/snmpd.conf
+```
+```bash
+vi /etc/snmp/snmpd.conf
+```
+- Edit "" and set your own community string
+```bash
+curl -o /usr/bin/distro https://raw.githubusercontent.com/librenms/librenms-agent/master/snmp/distro
+```
+```bash
+chmod +x /usr/bin/distro
+```
+- Enable and restart snmp
+```bash
+systemctl enable snmpd
+```
+```bash
+systemctl restart snmpd
+```
+- [ ] Cron job
+- cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 - [ ] q
 
 <p align="center"> <a href="Step_02.md">:arrow_left:&nbsp;&nbsp;Step 02</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_04.md">Step 04&nbsp; :arrow_right:</a></p>
