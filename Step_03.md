@@ -3,7 +3,8 @@
 
 > [!IMPORTANT]
 > - OS -> Debian 12
-> - Web Server -> Nginx; For additional information on OS and web server options, visit the official website: [LibreNMS](https://www.librenms.org/)
+> - Web Server -> Nginx
+> - For additional information on o.s. and w.s. options, visit the official website: [LibreNMS](https://www.librenms.org/)
 > - **The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer.**
 
 - [ ] Install packages:
