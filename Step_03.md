@@ -187,7 +187,7 @@ systemctl enable snmpd
 ```bash
 systemctl restart snmpd
 ```
-- [ ] Cron job (NOTE: Keep in mind that cron, by default, only uses a very limited set of environment variables. You may need to configure proxy variables for the cron invocation. Alternatively adding the proxy settings in config.php is possible too. The config.php file will be created in the upcoming steps. Review the following URL after you finished librenms install steps: https://docs.librenms.org//Support/Configuration/#proxy-support)
+- [ ] Cron job (NOTE: Keep in mind that cron, by default, only uses a very limited set of environment variables. Review the following URL after you finished librenms install steps: [#proxy-support](https://docs.librenms.org//Support/Configuration/#proxy-support)
 ```bash
 cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 ```
