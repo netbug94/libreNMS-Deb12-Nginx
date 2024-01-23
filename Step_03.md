@@ -55,7 +55,7 @@ mv composer-stable.phar /usr/bin/composer
 chmod +x /usr/bin/composer
 ```
 > [!IMPORTANT]
-> Once you have resolved the details mentioned above, proceed with the following steps:
+> Once you have resolved the details mentioned above, continue here:
 - [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
 - Inside the editor, search for the line ``` ;date.timezone = ``` remove the semicolon ``` ; ``` and add your desired timezone. For example: ``` date.timezone =Etc/UTC ``` [Example file -> fpm/php.ini](Resources/fpm/php.ini)
 ```bash
