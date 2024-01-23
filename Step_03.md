@@ -7,9 +7,9 @@
 > - For additional information on o.s. and w.s. options, visit the official website: [LibreNMS](https://www.librenms.org/)
 > - **The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer**
 
-- [ ] Install packages:
+- [ ] Install packages
 ```bash
-apt install apt-transport-https lsb-release ca-certificates wget acl curl fping git graphviz imagemagick mariadb-client mariadb-server mtr-tiny nginx-full nmap php8.2-cli php8.2-curl php8.2-fpm php8.2-gd php8.2-gmp php8.2-mbstring php8.2-mysql php8.2-snmp php8.2-xml php8.2-zip python3-dotenv python3-pymysql python3-redis python3-setuptools python3-systemd python3-pip rrdtool snmp snmpd unzip whois -y
+apt install apt-transport-https lsb-release ca-certificates wget acl curl fping git graphviz imagemagick mariadb-client mariadb-server mtr-tiny nginx-full nmap php8.2-cli php8.2-curl php8.2-fpm php8.2-gd php8.2-gmp php8.2-mbstring php8.2-mysql php8.2-snmp php8.2-xml php8.2-zip python3-dotenv python3-pymysql python3-redis python3-setuptools python3-systemd python3-pip rrdtool snmp snmpd unzip whois vim -y
 ```
 - [ ] Add librenms user
 ```bash
@@ -44,7 +44,7 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 
 > [!IMPORTANT]
 > If the above steps worked, disregard the next steps
- - Occasionally, when a proxy is utilized for internet access, the above script may encounter issues. In such cases, a workaround is to install the composer package manually. For a global installation:
+ - Occasionally, when a proxy is utilized for internet access, the above script may encounter issues. In such cases, a workaround is to install the composer package manually. For a global installation
 ```bash
 wget https://getcomposer.org/composer-stable.phar
 ```
@@ -55,7 +55,7 @@ mv composer-stable.phar /usr/bin/composer
 chmod +x /usr/bin/composer
 ```
 > [!IMPORTANT]
-> Once you have resolved the details mentioned above, continue here:
+> Once you have resolved the details mentioned above, continue here
 - [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
 - Inside the editor, search for the line ``` ;date.timezone = ``` remove the semicolon ``` ; ``` and add your desired timezone. For example: ``` date.timezone =Etc/UTC ``` [Example file -> fpm/php.ini](Resources/fpm/php.ini)
 ```bash
@@ -65,28 +65,28 @@ vi /etc/php/8.2/fpm/php.ini
 ```bash
 vi /etc/php/8.2/cli/php.ini
 ```
-- [ ] Set the system timezone using the following command. Ensure to replace 'Etc/UTC' with your chosen option from above.
+- [ ] Set the system timezone using the following command. Ensure to replace 'Etc/UTC' with your chosen option from above
 ```bash
 timedatectl set-timezone Etc/UTC
 ```
-- [ ] Configure MariaDB [Example file -> 50-server.cnf](Resources/50-server.cnf):
+- [ ] Configure MariaDB [Example file -> 50-server.cnf](Resources/50-server.cnf)
 ```bash
 vi /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
-- Within the [mysqld] section add:
+- Within the [mysqld] section add
 ```bash
 innodb_file_per_table=1
 lower_case_table_names=0
 ```
 - Then restart MariaDB ``` systemctl enable mariadb ``` ``` systemctl restart mariadb ```
 -  Start MariaDB client ``` mysql -u root ```
--  Your terminal should look a bit different since you are now logged into MariaDB; Add the following commands:
+-  Your terminal should look a bit different since you are now logged into MariaDB; Add the following commands
 > [!NOTE]
 > Remember to hit "enter" after pasting each command
 ```bash
 CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
-- Make sure to change 'password' to something secure:
+- Make sure to change 'password' to something secure
 ```bash
 CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';
 ```
@@ -106,20 +106,23 @@ cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
 vi /etc/php/8.2/fpm/pool.d/librenms.conf
 ```
 - Change [www] to ``` [librenms] ```
-- Change ``` user = www-data ``` and ``` group = www-data ``` to "librenms": 
+- Change ``` user = www-data ``` and ``` group = www-data ``` to "librenms"
 ```bash
 user = librenms
 group = librenms
 ```
-- Change ``` listen = /run/php/php8.2-fpm.sock ``` with:
+- Change ``` listen = /run/php/php8.2-fpm.sock ``` with
 ```bash
 listen = /run/php-fpm-librenms.sock
 ```
-- [ ] If there are no other PHP web applications on this server, remove file www.conf
+- [ ] If there are no other PHP web applications on this server, remove file "www.conf"
 ```bash
 rm /etc/php/8.2/fpm/pool.d/www.conf
 ```
-- [ ] Configure Web Server:
+- [ ] Configure Web Server
+```bash
+vi /etc/nginx/sites-enabled/librenms.vhost
+```
 - [ ] n
 - [ ] o
 - [ ] p
