@@ -170,10 +170,10 @@ cp /opt/librenms/misc/lnms-completion.bash /etc/bash_completion.d/
 ```bash
 cp /opt/librenms/snmpd.conf.example /etc/snmp/snmpd.conf
 ```
+- Set your own community string by changing ``` RANDOMSTRINGGOESHERE ``` [Example file -> snmpd.conf](Resources/snmpd.conf)
 ```bash
 vi /etc/snmp/snmpd.conf
 ```
-- Edit "" and set your own community string
 ```bash
 curl -o /usr/bin/distro https://raw.githubusercontent.com/librenms/librenms-agent/master/snmp/distro
 ```
