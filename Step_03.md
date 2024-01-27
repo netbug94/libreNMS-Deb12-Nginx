@@ -36,9 +36,10 @@ setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 ```
 - [ ] Install PHP dependencies
-- Change into librenms user ``` su - librenms ```
-- Run script ``` ./scripts/composer_wrapper.php install --no-dev ```
-- Exit librenms user ``` exit ```
+- Change into librenms user ```su - librenms```
+- Run script ```./scripts/composer_wrapper.php install --no-dev```
+- Install pymysql module ```pip3 install -r requirements.txt```
+- Exit librenms user ```exit```
 > [!CAUTION]
 > Make sure to exit and go back to "root" user or sudoer
 
