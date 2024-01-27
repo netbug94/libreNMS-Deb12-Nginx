@@ -59,8 +59,11 @@ dyndir = /opt/librenms/rrd/smokeping/__cgi
          
 ![Screenshot from 2024-01-27 15-20-50](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/66336547-49ba-4163-95c9-b3cfeea6b70a)
 </div>
-
-- [ ] 
+- Make sure Smokeping subfolder are still empty, usually at this point you might only have to rm one file which is
+```bash
+rm /opt/librenms/rrd/smokeping/__sortercache/data.FPing.storable
+```
+- [ ] a
 - [ ] a
 - [ ] q
 
