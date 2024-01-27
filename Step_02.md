@@ -59,8 +59,11 @@
 ![Screenshot from 2024-01-26 16-17-00](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/7a9075b4-8254-4d06-8d71-5aa4c99c830d)
 </div>
 
-- [ ] Go to 'Console' and start your container and log in with the same credentials
-- [ ] g
+- [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
+```bash
+apt update ; apt upgrade
+```
+- [ ] Once in
 - [ ] h
 - [ ] i
 - [ ] j
