@@ -215,7 +215,7 @@ systemctl enable librenms-scheduler.timer ; systemctl start librenms-scheduler.t
 cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
 - [ ] Web installer
-- Is time to open your browser and acces LibreNMS ``` http://192.168.0.0/install ```
+- It's time to open your browser and access LibreNMS at ``` http://192.168.0.0/install ```. Replace ```192.168.0.0``` with the actual IP or hostname
 - The web installer might prompt you to create a config.php file in your librenms install location manually, copying the content displayed on-screen to the file. If you have to do this, please remember to set the permissions on config.php after you copied the on-screen contents to the file. Run
 ```bash
 chown librenms:librenms /opt/librenms/config.php
