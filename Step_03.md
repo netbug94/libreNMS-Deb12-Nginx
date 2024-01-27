@@ -169,13 +169,9 @@ server {
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```
-- Reload nginx
+- Reload nginx and restart php
 ```bash
-systemctl reload nginx
-```
-- Restart php
-```bash
-systemctl restart php8.2-fpm
+systemctl reload nginx ; systemctl restart php8.2-fpm
 ```
 - [ ] Enable lnms command completion
 ```bash
