@@ -216,7 +216,25 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
 - [ ] Web installer
 - It's time to open your browser and access LibreNMS at ``` http://192.168.0.0/install ```. Replace ```192.168.0.0``` with the actual IP or hostname
-- The web installer might prompt you to create a config.php file in your librenms install location manually, copying the content displayed on-screen to the file. If you have to do this, please remember to set the permissions on config.php after you copied the on-screen contents to the file. Run
+- The web installer might prompt you to create a config.php file in your librenms install location manually, copying the content displayed on-screen to the file. If you have to do this, please remember to set the permissions on config.php after you copied the on-screen contents to the file.
+
+<div align="center">
+ 
+![Screenshot from 2024-01-27 12-06-59](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/53634bd6-741f-4ee2-88a0-244c555793d2)
+
+![Screenshot from 2024-01-27 12-07-18](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/466ddc82-17cf-4add-b563-58056fd52245)
+
+![Screenshot from 2024-01-27 12-09-20](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/41b344e9-0b97-4f23-8730-f6f9b883f108)
+
+![Screenshot from 2024-01-27 12-10-34](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/e22e7397-e40f-4591-b246-8c622d5e23b0)
+
+![Screenshot from 2024-01-27 12-11-37](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/ae491099-34ea-4bde-a2a3-a7836e756b52)
+
+![Screenshot from 2024-01-27 12-12-19](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/bb598611-2292-4d97-a511-b674c436489f)
+
+</div>
+
+- Run
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
