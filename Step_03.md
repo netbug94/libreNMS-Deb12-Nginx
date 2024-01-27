@@ -49,7 +49,7 @@ su - librenms
 exit
 ```
 > [!CAUTION]
-> Make sure to exit and go back to "root" user or sudoer
+> Make sure to exit, and go back to "root" user or sudoer
 
 > [!IMPORTANT]
 > If the above steps worked, disregard the next steps
@@ -66,7 +66,7 @@ chmod +x /usr/bin/composer
 > [!IMPORTANT]
 > Once you have resolved the details mentioned above, continue here
 - [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
-- Inside the editor, search for the line ``` ;date.timezone = ``` remove the semicolon ``` ; ``` and add your desired timezone. For example: ``` date.timezone =Etc/UTC ``` [Example file -> fpm/php.ini](Resources/fpm/php.ini)
+- Inside the editor, search for the line ``` ;date.timezone = ``` remove the semicolon ``` ; ```, and add your desired timezone. For example: ``` date.timezone =Etc/UTC ``` [Example file -> fpm/php.ini](Resources/fpm/php.ini)
 ```bash
 vi /etc/php/8.2/fpm/php.ini
 ```
@@ -101,7 +101,7 @@ mysql -u root
 ```bash
 CREATE DATABASE librenms CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
-- Ensure to replace 'password' with a secure and unique passphrase
+- Ensure to replace 'password' with a secure, and unique passphrase
 ```bash
 CREATE USER 'librenms'@'localhost' IDENTIFIED BY 'password';
 ```
@@ -112,7 +112,7 @@ GRANT ALL PRIVILEGES ON librenms.* TO 'librenms'@'localhost';
 exit
 ```
 > [!CAUTION]
-> Make sure to exit and go back to "root" user or sudoer
+> Make sure to exit, and go back to "root" user or sudoer
 - [ ] Configure PHP-FPM [Example file -> librenms.conf](Resources/librenms.conf)
 ```bash
 cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
@@ -124,7 +124,7 @@ vi /etc/php/8.2/fpm/pool.d/librenms.conf
 ```bash
 [librenms]
 ```
-- Change ``` user = www-data ``` and ``` group = www-data ``` to "librenms"
+- Change ``` user = www-data ```, and ``` group = www-data ``` to "librenms"
 ```bash
 user = librenms
 group = librenms
@@ -169,7 +169,7 @@ server {
 ```bash
 rm /etc/nginx/sites-enabled/default
 ```
-- Reload nginx and restart php
+- Reload nginx, and restart php
 ```bash
 systemctl reload nginx ; systemctl restart php8.2-fpm
 ```
@@ -206,13 +206,9 @@ cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 ```bash
 cp /opt/librenms/dist/librenms-scheduler.service /opt/librenms/dist/librenms-scheduler.timer /etc/systemd/system/
 ```
-- Enable scheduler
+- Enable scheduler, and start scheduler
 ```bash
-systemctl enable librenms-scheduler.timer
-```
-- Start scheduler
-```bash
-systemctl start librenms-scheduler.timer
+systemctl enable librenms-scheduler.timer ; systemctl start librenms-scheduler.timer
 ```
 - [ ] Copy logrotate config
 ```bash
