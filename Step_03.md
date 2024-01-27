@@ -87,8 +87,14 @@ vi /etc/mysql/mariadb.conf.d/50-server.cnf
 innodb_file_per_table=1
 lower_case_table_names=0
 ```
-- Then restart MariaDB ``` systemctl enable mariadb ``` ``` systemctl restart mariadb ```
--  Start MariaDB client ``` mysql -u root ```
+- Then restart MariaDB
+```bash
+systemctl enable mariadb ; systemctl restart mariadb
+```
+-  Start MariaDB client
+```bash
+mysql -u root
+```
 -  Your terminal should appear different now that you are logged into MariaDB. Add the following commands
 > [!NOTE]
 > Remember to press "Enter" after pasting each command
