@@ -120,7 +120,10 @@ cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
 ```bash
 vi /etc/php/8.2/fpm/pool.d/librenms.conf
 ```
-- Change [www] to ``` [librenms] ```
+- Change [www] to
+```bash
+[librenms]
+```
 - Change ``` user = www-data ``` and ``` group = www-data ``` to "librenms"
 ```bash
 user = librenms
