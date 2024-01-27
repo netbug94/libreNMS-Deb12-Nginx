@@ -21,15 +21,38 @@
   ![Screenshot from 2024-01-26 16-03-18](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5c58dcb7-6cfe-4e29-b5cf-3b27e477efa5)
   </div>
 
-- [ ] Click in Create CT
+- [ ] Click on 'Create CT'
 
 <div align="center">
 
 ![Screenshot from 2024-01-26 16-04-32](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/3f59efb8-4807-40dd-992e-5345269f0144)
   </div>
   
+- [ ] Fill in the required details, referring to the following images as a guide
+
+<div align="center">
+
+![Screenshot from 2024-01-26 16-07-02](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/eb401d5f-edf0-4c72-86b5-00a243fac8a6)
+
+![Screenshot from 2024-01-26 16-10-44](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/d482b3b5-2d84-4965-8a7c-eb5099ae7a46)
+  
+![Screenshot from 2024-01-26 16-11-39](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/b31a8564-89b2-4502-bd0e-8b5c0c0e7b38)
+
+![Screenshot from 2024-01-26 16-12-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a77834cc-a1e3-44c2-8d0e-b010b5f20314)
+
+![Screenshot from 2024-01-26 16-12-30](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5527b8ff-ed00-43b0-b554-00fb345716b4)
+
+![Screenshot from 2024-01-26 16-12-50](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/2e84fb3d-0f96-4af8-abc1-9220baab392f)
+
+![Screenshot from 2024-01-26 16-13-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5d7aeda0-c8fb-4509-b08c-547718314205)
+
+![Screenshot from 2024-01-26 16-13-32](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/0f7b4018-1158-40db-af8f-697114078104)
+
+![Screenshot from 2024-01-26 16-14-13](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/ce764194-9c27-448c-a5ba-f2fb1def0cb2)
+
+  </div>
+  
 - [ ] 
-- [ ] e
 - [ ] f
 - [ ] g
 - [ ] h
