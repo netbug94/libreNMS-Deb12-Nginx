@@ -59,6 +59,10 @@
 ![Screenshot from 2024-01-26 16-17-00](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/7a9075b4-8254-4d06-8d71-5aa4c99c830d)
 </div>
 
+- [ ] Configure network options for your new container by navigating to Networks > Edit. You can use the following setup or your own
+
+![Screenshot from 2024-01-27 09-20-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/0684ef38-5740-4f62-aac6-e3dab7034c8a)
+
 - [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
 
 ```bash
