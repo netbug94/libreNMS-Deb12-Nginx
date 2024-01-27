@@ -234,13 +234,24 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 
 </div>
 
-- Run
+- [ ] Run
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
+- [ ] LibreNMS will run .validate after the first login; it usually provides you with the answer to fix itself
+- Click "Attempt to automatically fix"
+<div align="center">
+ 
+![Screenshot from 2024-01-27 12-42-57](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/0f177b27-fc88-417a-9544-fcd21028f8fe)
+</div>
+
+- Add ```localhost```, and remember to use the SNMP string you applied to your host in ```vi /etc/snmp/snmpd.conf```
+
 <div align="center">
 
+![Screenshot from 2024-01-27 12-51-19](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/8b9f48cb-7996-4178-82c1-c375b9374f82)
 
+![Screenshot from 2024-01-27 12-53-31](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/2c0ecfea-a431-4ac6-9bf0-c6f5f45aa3ac)
 
 </div>
 
