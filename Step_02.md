@@ -62,10 +62,10 @@
 - [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
 
 ```bash
-apt update ; apt upgrade
+apt update ; apt upgrade ; shutdown now
 ```
 
-- [ ] Shutdown your container and it's time to create your first checkpoint (backup)
+- [ ] Make sure your container is shutdown, and it's time to create your first checkpoint (backup)
 
 <div align="center">
   
