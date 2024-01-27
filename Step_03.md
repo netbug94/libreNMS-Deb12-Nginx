@@ -249,7 +249,7 @@ chown librenms:librenms /opt/librenms/config.php
 
 <div align="center">
 
-![Screenshot from 2024-01-27 12-51-19](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/8b9f48cb-7996-4178-82c1-c375b9374f82)
+![Screenshot from 2024-01-27 12-52-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/557ed984-6b89-422b-aa69-01ab24976b77)
 
 ![Screenshot from 2024-01-27 12-53-31](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/2c0ecfea-a431-4ac6-9bf0-c6f5f45aa3ac)
 
