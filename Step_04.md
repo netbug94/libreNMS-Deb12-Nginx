@@ -45,10 +45,11 @@ mv /var/lib/smokeping /opt/librenms/rrd/
 ```bash
 usermod -a -G librenms smokeping
 ```
-- Update the data directory by modifying the values for ```datadir``` and ```dyndir```
+- Edit and update the data directory
 ```bash
 vi /etc/smokeping/config.d/pathnames
 ```
+- Modify the values for ```datadir``` and ```dyndir```
 ```bash
 datadir = /opt/librenms/rrd/smokeping
 dyndir = /opt/librenms/rrd/smokeping/__cgi
