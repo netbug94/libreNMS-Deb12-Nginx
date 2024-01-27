@@ -32,7 +32,35 @@ remark = Welcome to the SmokePing website of <b>Insert Company Name Here</b>. \
 
 @include /etc/smokeping/config.d/librenms-targets.conf
 ```
+- [ ] Lets combine smkeping dir with librenms
+- Stop smokeping
+```bash
+systemctl stop smokeping
+```
+- Move smokeping directory
+```bash
+mv /var/lib/smokeping /opt/librenms/rrd/
+```
+- Add permissions
+```bash
+usermod -a -G librenms smokeping
+```
+- Update the data directory by modifying the values for ```datadir``` and ```dyndir```
+```bash
+vi /etc/smokeping/config.d/pathnames
+```
+```bash
+datadir = /opt/librenms/rrd/smokeping
+dyndir = /opt/librenms/rrd/smokeping/__cgi
+```
+
+<div align="center">
+         
+![Screenshot from 2024-01-27 15-20-50](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/66336547-49ba-4163-95c9-b3cfeea6b70a)
+</div>
+
 - [ ] 
+- [ ] a
 - [ ] q
 
 <br>
