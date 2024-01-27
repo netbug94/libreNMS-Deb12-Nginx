@@ -42,7 +42,7 @@
 
 ![Screenshot from 2024-01-26 16-12-30](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5527b8ff-ed00-43b0-b554-00fb345716b4)
 
-![Screenshot from 2024-01-26 16-12-50](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/2e84fb3d-0f96-4af8-abc1-9220baab392f)
+--
 
 ![Screenshot from 2024-01-26 16-13-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5d7aeda0-c8fb-4509-b08c-547718314205)
 
