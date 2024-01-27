@@ -238,6 +238,12 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
+<div align="center">
+
+
+
+</div>
+
 - [ ] Now is the time to save your progress by making a [checkpoint (backup)](Step_04.md)
 
 > [!TIP]
