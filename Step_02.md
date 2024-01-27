@@ -60,9 +60,11 @@
 </div>
 
 - [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
+
 ```bash
 apt update ; apt upgrade
 ```
+
 - [ ] Once in
 - [ ] h
 - [ ] i
