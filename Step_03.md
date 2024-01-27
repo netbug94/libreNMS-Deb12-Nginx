@@ -196,10 +196,7 @@ chmod +x /usr/bin/distro
 ```
 - Enable and restart snmp
 ```bash
-systemctl enable snmpd
-```
-```bash
-systemctl restart snmpd
+systemctl enable snmpd ; systemctl restart snmpd
 ```
 - [ ] Cron job (NOTE: Keep in mind that cron, by default, only uses a very limited set of environment variables. Review the following URL after you finished librenms install steps: [#proxy-support](https://docs.librenms.org//Support/Configuration/#proxy-support)
 ```bash
