@@ -65,7 +65,7 @@ dyndir = /opt/librenms/rrd/smokeping/__cgi
 ```bash
 cd /opt/librenms/rrd/smokeping ; tree
 ```
-- In this scenario it only generated two files ```-- LocalMachine.rrd``` and ```-- data.FPing.storable```
+- In my case, as of this step, SmokePing only generated two files: ```--LocalMachine.rrd``` and ```--data.FPing.storable```
 
 ```bash
 rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smokeping/__sortercache/data.FPing.storable
