@@ -76,9 +76,11 @@ rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smo
 </div>
 
 - [ ] Configure LibreNMS
+- Switch to librenms user
 ```bash
 su - librenms
 ```
+- Update libreNMS settings
 ```bash
 lnms config:set smokeping.dir '/opt/librenms/rrd/smokeping'
 lnms config:set smokeping.pings 20
