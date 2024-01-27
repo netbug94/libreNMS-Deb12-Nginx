@@ -255,6 +255,12 @@ chown librenms:librenms /opt/librenms/config.php
 
 </div>
 
+- If you encounter the "Scheduler" error, run the recommended commands. If it persists after running them, you can ignore it, as I believe it's a common bug
+
+- [ ] Now, turn on the "Start at boot" option. Navigate to "Options," double-click "Start at boot," and checkmark the option
+
+![Screenshot from 2024-01-27 13-12-30](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/ce2547da-7875-4ef2-8fb4-57441d75bd78)
+
 - [ ] Now is the time to save your progress by making a [checkpoint (backup)](Step_04.md)
 
 > [!TIP]
