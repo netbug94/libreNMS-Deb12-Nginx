@@ -109,7 +109,7 @@ cp /usr/share/doc/fcgiwrap/examples/nginx.conf /etc/nginx/fcgiwrap.conf
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
-- Paste the following code after the last "location." See Example file -> [librenms.vhost](Resources/librenms.vhost)
+- Paste the following code after the last "location." See [Example file -> librenms.vhost](Resources/librenms.vhost)
 
 ```bash
 location = /smokeping/ {
