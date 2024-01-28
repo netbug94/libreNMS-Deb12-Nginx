@@ -14,7 +14,7 @@ cp /opt/librenms/misc/smokeping-debian.example /etc/cron.hourly/librenms-smokepi
 ```bash
 chmod +x /etc/cron.hourly/librenms-smokeping
 ```
-
+___
 - [ ] Update your Probes file
 ```bash
 vi /etc/smokeping/config.d/Probes
@@ -25,7 +25,7 @@ vi /etc/smokeping/config.d/Probes
 
 @include /etc/smokeping/config.d/librenms-probes.conf
 ```
-
+***
 - [ ] Do the same with your Targets file
 ```bash
 vi /etc/smokeping/config.d/Targets
