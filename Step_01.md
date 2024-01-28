@@ -1,8 +1,15 @@
 # Step 01 :shipit:
 ## Proxmox Virtual Environment install and setup 
+
 - [ ] Download Proxmox Virtual Environment from the official website: [Proxmox](https://www.proxmox.com/en/)
+<br>
+
 - [ ] Create a bootable image with the ISO (avoid using Ventoy, as of January 2024, proxmox ISO doesn't work properly with it.)
+<br>
+
 - [ ] Ethernet (cable) connection is required; Wi-Fi is not supported.
+<br>
+
 - [ ] Boot from your bootable device and initiate the Proxmox installation.
 <br>
 
@@ -24,6 +31,6 @@
 
 - [ ] Network Setup:
 ![Screenshot from 2024-01-21 22-57-18-copy](https://github.com/hispanicdevian/libreNMS-Guide/assets/135581442/1f2374c8-7d0e-4536-b89a-53b94288f810)
-
 <br>
+
 <p align="center"> <a href="README.md">:arrow_left:&nbsp;&nbsp;Main Page</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Step_02.md">Step 02&nbsp; :arrow_right:</a></p>
