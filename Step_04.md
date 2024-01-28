@@ -5,7 +5,7 @@
 ```bash
 nala install smokeping -y
 ```
-
+---
 - [ ] Install cron script
 ```bash
 cp /opt/librenms/misc/smokeping-debian.example /etc/cron.hourly/librenms-smokeping
