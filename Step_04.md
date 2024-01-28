@@ -179,6 +179,19 @@ step     = 60
 ```bah
 systemctl restart mariadb ; systemctl restart nginx ; systemctl restart php8.2-fpm ; systemctl start smokeping
 ```
+> [!NOTE]
+> If running this last command gives you an error, return to your last checkpoint and restart this page
+
+- [ ] If you did everything right, you should be able to see SmokePing's web UI at (remember to replace ```0.0.0.0``` with your actual IP or hostname.)
+```bash
+http://0.0.0.0/smokeping/
+```
+- You can also navigate into it through LibreNMS web UI; :house: Button > 
+
+<div align="center">
+         
+![Screenshot from 2024-01-28 08-52-07](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/cdf7b9d4-3ea0-49ed-a088-cdc7475631ab)
+</div>
 
 <br>
 <p align="center"> <a href="Step_03.md">:arrow_left:&nbsp;&nbsp;Step 03</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_05.md">Step 05&nbsp; :arrow_right:</a></p>
