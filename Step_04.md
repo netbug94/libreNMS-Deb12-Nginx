@@ -165,7 +165,15 @@ nginx -t
 systemctl restart nginx
 ```
 
-- [ ] a
+- [ ] Customize smokeping steps/periods
+```bash
+vi /etc/smokeping/config.d/Database
+```
+- Inside this file, modify ```step     = 300```, I prefer to change it to ```60```
+```bash
+step     = 60
+```
+
 - [ ] a
 - [ ] a
 
