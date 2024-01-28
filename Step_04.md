@@ -5,7 +5,7 @@
 ```bash
 nala install smokeping -y
 ```
----
+___
 - [ ] Install cron script
 ```bash
 cp /opt/librenms/misc/smokeping-debian.example /etc/cron.hourly/librenms-smokeping
@@ -25,7 +25,7 @@ vi /etc/smokeping/config.d/Probes
 
 @include /etc/smokeping/config.d/librenms-probes.conf
 ```
-***
+___
 - [ ] Do the same with your Targets file
 ```bash
 vi /etc/smokeping/config.d/Targets
@@ -43,7 +43,7 @@ remark = Welcome to the SmokePing website of <b>Insert Company Name Here</b>. \
 
 @include /etc/smokeping/config.d/librenms-targets.conf
 ```
-
+___
 - [ ] Lets combine smkeping dir with librenms
 - Stop smokeping
 ```bash
@@ -84,6 +84,7 @@ rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smo
          
 ![Screenshot from 2024-01-27 15-45-08](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a7a232b0-866f-46fb-ae61-836f39c03fe0)
 </div>
+___
 
 - [ ] Configure LibreNMS
 - Switch to librenms user
@@ -102,7 +103,7 @@ lnms config:set smokeping.url 'smokeping/'
 ```bash
 exit
 ```
-
+___
 - [ ] Configure Smokeping's Web UI
 - Install fcgiwrap for CGI wrapper interact with Nginx
 ```bash
@@ -162,7 +163,7 @@ nginx -t
 ```bash
 systemctl restart nginx
 ```
-
+___
 - [ ] Customize smokeping steps/periods
 ```bash
 vi /etc/smokeping/config.d/Database
@@ -171,6 +172,7 @@ vi /etc/smokeping/config.d/Database
 ```bash
 step     = 60
 ```
+___
 - [ ] If you intend to monitor 1,000+ devices, you should increase the FPing capacity
 ```bash
 vi /opt/librenms/config.php
@@ -179,18 +181,19 @@ vi /opt/librenms/config.php
 ```bash
 $config['smokeping']['probes'] = 5;
 ```
-
+___
 - [ ] Lets manually override the cron-job by running
 ```bash
 /etc/cron.hourly/librenms-smokeping
 ```
+___
 - [ ] After all this I like to refhresh everything
 ```bah
 systemctl restart mariadb ; systemctl restart nginx ; systemctl restart php8.2-fpm ; systemctl start smokeping
 ```
 > [!NOTE]
 > If running this last command gives you an error, return to your last checkpoint and restart this page
-
+___
 - [ ] If you did everything right, you should be able to see SmokePing's web UI at (remember to replace ```0.0.0.0``` with your actual IP or hostname.)
 ```bash
 http://0.0.0.0/smokeping/
