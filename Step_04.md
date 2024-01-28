@@ -142,7 +142,7 @@ location ^~ /smokeping/ {
         gzip off;
 }
 ```
-- Make sure to paste before the last curly bracket "}" for it to be executed inside ```server { code }```
+- Make sure to paste the content before the last curly bracket ```}``` for it to be executed inside ```server { code }```
 <div align="center">
          
 ![Screenshot from 2024-01-27 16-12-42](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5fcce586-eff5-4b63-b56a-2b9c8c3bb651)
