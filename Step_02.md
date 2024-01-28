@@ -7,13 +7,17 @@
 ![Screenshot from 2024-01-26 15-47-24](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5a1eb9cd-7035-49e5-ac15-7ee55f9682d2)
 </div>
 
+___
+
 - [ ] Go into Datacenter > xxxnet > local(xxx) > Templates
 
 <div align="center">
   
 ![Screenshot from 2024-01-26 15-59-42](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a877283c-7293-4151-b4d2-b813a432ec04)
   </div>
-  
+
+___
+
 - [ ] Download Debian 12 (Bookworm) from the list
 
 <div align="center">
@@ -21,13 +25,17 @@
   ![Screenshot from 2024-01-26 16-03-18](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5c58dcb7-6cfe-4e29-b5cf-3b27e477efa5)
   </div>
 
+___
+
 - [ ] Click on 'Create CT'
 
 <div align="center">
 
 ![Screenshot from 2024-01-26 16-04-32](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/3f59efb8-4807-40dd-992e-5345269f0144)
   </div>
-  
+
+___
+
 - [ ] Fill in the required details, referring to the following images as a guide
 
 <div align="center">
@@ -51,6 +59,8 @@
 ![Screenshot from 2024-01-26 16-14-13](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/ce764194-9c27-448c-a5ba-f2fb1def0cb2)
 
   </div>
+
+___
   
 - [ ] Navigate to your new Debian Container into 'Features' and make sure to activate 'keyctl'
 
@@ -59,15 +69,20 @@
 ![Screenshot from 2024-01-26 16-17-00](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/7a9075b4-8254-4d06-8d71-5aa4c99c830d)
 </div>
 
+___
+
 - [ ] Configure network options for your new container by navigating to Networks > Edit. You can use the following setup or your own
 
 ![Screenshot from 2024-01-27 09-20-05](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/0684ef38-5740-4f62-aac6-e3dab7034c8a)
+
+___
 
 - [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
 
 ```bash
 apt update ; apt upgrade ; shutdown now
 ```
+___
 
 - [ ] Make sure your container is shutdown, and it's time to create your first checkpoint (backup)
 
@@ -80,6 +95,8 @@ apt update ; apt upgrade ; shutdown now
   
 ![Screenshot from 2024-01-26 16-32-19](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/3f5d7201-0163-41ee-9e3d-493cf091d8d9)
 </div>
+
+___
 
 - [ ] Once the backup is done, start your container, and it's time to [install LibreNMS](Step_03.md)
 
