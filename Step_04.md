@@ -171,6 +171,14 @@ vi /etc/smokeping/config.d/Database
 ```bash
 step     = 60
 ```
+- [ ] If you intend to monitor 1,000+ devices, you should increase the FPing capacity
+```bash
+vi /opt/librenms/config.php
+```
+- Scroll all the way to the bottom and add this line (the number at the end defines the cap of processes)
+```bash
+$config['smokeping']['probes'] = 5;
+```
 
 - [ ] Lets manually override the cron-job by running
 ```bash
