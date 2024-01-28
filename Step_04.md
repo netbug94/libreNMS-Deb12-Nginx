@@ -69,7 +69,7 @@ dyndir = /opt/librenms/rrd/smokeping/__cgi
 
 <div align="center">
          
-![Screenshot from 2024-01-27 15-20-50](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/66336547-49ba-4163-95c9-b3cfeea6b70a)
+![Screenshot from 2024-01-28 08-45-27](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/40f4f491-e78d-4af2-9707-5d000edfb391)       
 </div>
 
 - For this changes to work properly, make sure Smokeping subfolders are empty ```Local```, ```__cgi```, ```__sortercache```
