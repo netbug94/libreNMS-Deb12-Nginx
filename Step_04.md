@@ -84,8 +84,8 @@ rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smo
          
 ![Screenshot from 2024-01-27 15-45-08](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a7a232b0-866f-46fb-ae61-836f39c03fe0)
 </div>
-___
 
+___
 - [ ] Configure LibreNMS
 - Switch to librenms user
 ```bash
