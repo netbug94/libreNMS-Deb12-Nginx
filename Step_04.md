@@ -153,6 +153,7 @@ location ^~ /smokeping/ {
          
 ![Screenshot from 2024-01-27 16-12-42](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5fcce586-eff5-4b63-b56a-2b9c8c3bb651)
 </div>
+
 - Verify your Nginx configuration file syntax is OK
 ```bash
 nginx -t
@@ -171,7 +172,7 @@ vi /etc/smokeping/config.d/Database
 step     = 60
 ```
 
-- [ ] Lets manually overide the cron-job by running
+- [ ] Lets manually override the cron-job by running
 ```bash
 /etc/cron.hourly/librenms-smokeping
 ```
