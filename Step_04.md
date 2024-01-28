@@ -219,7 +219,7 @@ http://0.0.0.0/smokeping/
 
 ___
 
-- [ ] If everything goes smoothly, back up your progress. By this point, you should know how to create a new checkpoint (backup)
+- [ ] If everything goes smoothly, back up your progress. By this point, you should know how to create a new checkpoint
 
 <div align="center">
 
