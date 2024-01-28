@@ -221,5 +221,10 @@ ___
 
 - [ ] If everything goes smoothly, back up your progress. By this point, you should know how to create a new checkpoint (backup)
 
+<div align="center">
+
+![Screenshot from 2024-01-28 09-40-20](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a629d22e-a4a9-44d6-aef2-56abf9f48325)
+</div>
+
 <br>
 <p align="center"> <a href="Step_03.md">:arrow_left:&nbsp;&nbsp;Step 03</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_05.md">Step 05&nbsp; :arrow_right:</a></p>
