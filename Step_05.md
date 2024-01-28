@@ -1,5 +1,9 @@
 # Step 05 :shipit:
+
+<div align="center">
+  
 ## Enjoy and feel free to submit issues if found
+</div>
 
 <div align="center">
 
