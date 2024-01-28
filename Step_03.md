@@ -73,6 +73,8 @@ mv composer-stable.phar /usr/bin/composer
 ```bash
 chmod +x /usr/bin/composer
 ```
+___
+
 > [!IMPORTANT]
 > Once you have resolved the details mentioned above, continue here
 - [ ] Set timezone for your php files; make sure it matches the [official php options](https://www.php.net/manual/en/timezones.php)
