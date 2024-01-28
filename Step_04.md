@@ -1,4 +1,4 @@
-# Step 05 :shipit:
+# Step 04 :shipit:
 ## Smokeping Backend
 
 - [ ] Install Smokeping
