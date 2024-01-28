@@ -5,7 +5,7 @@
 ```bash
 nala install smokeping -y
 ```
-___
+- 2 ___
 
 - [ ] Install cron script
 ```bash
