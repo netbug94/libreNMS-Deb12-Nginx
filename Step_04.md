@@ -65,11 +65,13 @@ dyndir = /opt/librenms/rrd/smokeping/__cgi
 ```bash
 cd /opt/librenms/rrd/smokeping ; tree
 ```
+
 - In my case, as of this step, SmokePing only generated two files: ```--LocalMachine.rrd``` and ```--data.FPing.storable```
 
 ```bash
 rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smokeping/__sortercache/data.FPing.storable ; tree
 ```
+
 <div align="center">
          
 ![Screenshot from 2024-01-27 15-45-08](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/a7a232b0-866f-46fb-ae61-836f39c03fe0)
@@ -80,6 +82,7 @@ rm /opt/librenms/rrd/smokeping/Local/LocalMachine.rrd ; rm /opt/librenms/rrd/smo
 ```bash
 su - librenms
 ```
+
 - Update libreNMS settings
 ```bash
 lnms config:set smokeping.dir '/opt/librenms/rrd/smokeping'
@@ -92,6 +95,7 @@ lnms config:set smokeping.url 'smokeping/'
 ```bash
 exit
 ```
+
 - [ ] Configure Smokeping's Web UI
 - Install fcgiwrap for CGI wrapper interact with Nginx
 
@@ -109,6 +113,7 @@ cp /usr/share/doc/fcgiwrap/examples/nginx.conf /etc/nginx/fcgiwrap.conf
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
+
 - Paste the following code after the last "location." See [Example file -> librenms.vhost](Resources/librenms.vhost)
 
 ```bash
@@ -142,11 +147,23 @@ location ^~ /smokeping/ {
         gzip off;
 }
 ```
+
 - Make sure to paste the content before the last curly bracket ```}``` for it to be executed inside ```server { code }```
+
 <div align="center">
          
 ![Screenshot from 2024-01-27 16-12-42](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5fcce586-eff5-4b63-b56a-2b9c8c3bb651)
 </div>
+
+- Verify your Nginx configuration file syntax is OK
+```bash
+nginx -t
+```
+
+- Restart Nginx
+```bash
+systemctl restart nginx
+```
 
 - [ ] 
 - [ ] q
