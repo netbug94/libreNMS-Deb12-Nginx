@@ -157,7 +157,7 @@ location ^~ /smokeping/ {
 ```bash
 nginx -t
 ```
-- Restart Nginx and start Smokeping
+- Restart Nginx
 ```bash
 systemctl restart nginx
 ```
