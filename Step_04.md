@@ -109,7 +109,7 @@ cp /usr/share/doc/fcgiwrap/examples/nginx.conf /etc/nginx/fcgiwrap.conf
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
 ```
-- Paste the following code after the last "location"
+- Paste the following code after the last "location." See Example file -> [librenms.vhost](Resources/librenms.vhost)
 
 ```bash
 location = /smokeping/ {
@@ -142,6 +142,13 @@ location ^~ /smokeping/ {
         gzip off;
 }
 ```
+<div align="center">
+         
+![Screenshot from 2024-01-27 16-12-42](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/5fcce586-eff5-4b63-b56a-2b9c8c3bb651)
+</div>
+
+
+
 - [ ] 
 - [ ] q
 
