@@ -7,14 +7,20 @@
 > - For additional information on o.s. and w.s. options, visit the official website: [LibreNMS](https://www.librenms.org/)
 > - The guide assumes that you are a "root" user. If you are not, make sure to switch to root or be a sudoer
 
+___
+
 - [ ] Install packages
 ```bash
 apt update ; apt upgrade -y ; apt install apt-transport-https lsb-release ca-certificates wget acl curl fping git graphviz imagemagick mariadb-client mariadb-server mtr-tiny nginx-full nmap php8.2-cli php8.2-curl php8.2-fpm php8.2-gd php8.2-gmp php8.2-mbstring php8.2-mysql php8.2-snmp php8.2-xml php8.2-zip python3-dotenv python3-pymysql python3-redis python3-setuptools python3-systemd python3-pip rrdtool snmp snmpd unzip whois -y ; apt install vim nala git sudo tree lsb-release -y ; apt update ; apt full-upgrade -y ; apt install acl -y ; pip3 install command_runner --break-system-packages
 ```
+___
+
 - [ ] Add librenms user
 ```bash
 useradd librenms -d /opt/librenms -M -r -s "$(which bash)"
 ```
+___
+
 - [ ] Download LibreNMS
 ```bash
 cd /opt
@@ -22,6 +28,8 @@ cd /opt
 ```bash
 git clone https://github.com/librenms/librenms.git
 ```
+___
+
 - [ ] Set permissions
 ```bash
 chown -R librenms:librenms /opt/librenms
@@ -35,6 +43,8 @@ setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 ```bash
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 ```
+___
+
 - [ ] Install PHP dependencies
 - Change into librenms user
 ```bash
@@ -74,10 +84,14 @@ vi /etc/php/8.2/fpm/php.ini
 ```bash
 vi /etc/php/8.2/cli/php.ini
 ```
+___
+
 - [ ] Set the system timezone using the following command. Make sure to replace 'Etc/UTC' with your chosen option from above
 ```bash
 timedatectl set-timezone Etc/UTC
 ```
+___
+
 - [ ] Configure MariaDB [Example file -> 50-server.cnf](Resources/50-server.cnf)
 ```bash
 vi /etc/mysql/mariadb.conf.d/50-server.cnf
@@ -113,6 +127,9 @@ exit
 ```
 > [!CAUTION]
 > Make sure to exit, and go back to "root" user or sudoer
+
+___
+
 - [ ] Configure PHP-FPM [Example file -> librenms.conf](Resources/librenms.conf)
 ```bash
 cp /etc/php/8.2/fpm/pool.d/www.conf /etc/php/8.2/fpm/pool.d/librenms.conf
@@ -133,10 +150,14 @@ group = librenms
 ```bash
 listen = /run/php-fpm-librenms.sock
 ```
+___
+
 - [ ] If there are no other PHP web applications on this server, remove file "www.conf"
 ```bash
 rm /etc/php/8.2/fpm/pool.d/www.conf
 ```
+___
+
 - [ ] Configure Web Server
 ```bash
 vi /etc/nginx/sites-enabled/librenms.vhost
@@ -173,6 +194,8 @@ rm /etc/nginx/sites-enabled/default
 ```bash
 systemctl reload nginx ; systemctl restart php8.2-fpm
 ```
+___
+
 - [ ] Enable lnms command completion
 ```bash
 ln -s /opt/librenms/lnms /usr/bin/lnms
@@ -180,6 +203,8 @@ ln -s /opt/librenms/lnms /usr/bin/lnms
 ```bash
 cp /opt/librenms/misc/lnms-completion.bash /etc/bash_completion.d/
 ```
+___
+
 - [ ] Configure snmpd
 ```bash
 cp /opt/librenms/snmpd.conf.example /etc/snmp/snmpd.conf
@@ -198,10 +223,14 @@ chmod +x /usr/bin/distro
 ```bash
 systemctl enable snmpd ; systemctl restart snmpd
 ```
+___
+
 - [ ] Cron job (NOTE: Keep in mind that cron, by default, only uses a very limited set of environment variables. Review the following URL after you finished librenms install steps: [#proxy-support](https://docs.librenms.org//Support/Configuration/#proxy-support)
 ```bash
 cp /opt/librenms/dist/librenms.cron /etc/cron.d/librenms
 ```
+___
+
 - [ ] Enable the scheduler
 ```bash
 cp /opt/librenms/dist/librenms-scheduler.service /opt/librenms/dist/librenms-scheduler.timer /etc/systemd/system/
@@ -210,10 +239,14 @@ cp /opt/librenms/dist/librenms-scheduler.service /opt/librenms/dist/librenms-sch
 ```bash
 systemctl enable librenms-scheduler.timer ; systemctl start librenms-scheduler.timer
 ```
+___
+
 - [ ] Copy logrotate config
 ```bash
 cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 ```
+___
+
 - [ ] Web installer
 - It's time to open your browser and access LibreNMS at ``` http://0.0.0.0/install ```. Replace ```0.0.0.0``` with the actual IP or hostname
 - The web installer might prompt you to create a config.php file in your librenms install location manually, copying the content displayed on-screen to the file. If you have to do this, please remember to set the permissions on config.php after you copied the on-screen contents to the file.
@@ -234,10 +267,14 @@ cp /opt/librenms/misc/librenms.logrotate /etc/logrotate.d/librenms
 
 </div>
 
+___
+
 - [ ] Run
 ```bash
 chown librenms:librenms /opt/librenms/config.php
 ```
+___
+
 - [ ] LibreNMS will run .validate after the first login; it usually provides you with the answer to fix itself
 - Click "Attempt to automatically fix"
 <div align="center">
@@ -257,21 +294,32 @@ chown librenms:librenms /opt/librenms/config.php
 
 - If you encounter the "Scheduler" error, run the recommended commands. If it persists after running them, you can ignore it, as I believe it's a common bug
 
+___
+
 - [ ] Shutdown your container and turn on the "Start at boot" option. Navigate to "Options," double-click "Start at boot," and checkmark the option
 
 ![Screenshot from 2024-01-27 13-12-30](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/ce2547da-7875-4ef2-8fb4-57441d75bd78)
+
+___
 
 - [ ] Is the time to save your progress by making a checkpoint
 
 > [!TIP]
 > If things go wrong you can always go back your checkpoint (backup)
 
+___
+
 - [ ] Shutdown your CT (container). You can run ```shutdown now``` or simply click the "shutdown" button
+
+___
+
 - [ ] Navigate to Backup and click "Backup Now" to create a new checkpoint
 
 ![Screenshot from 2024-01-27 12-23-23](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/95d43b1c-b871-4bfc-949c-31eae09b5dfc)
 
 ![Screenshot from 2024-01-27 12-28-27](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/cf1e929f-f52f-43e5-a7bf-9ac0521ca711)
+
+___
 
 - [ ] It's time to install [Smokeping Backend](Step_04.md)
 
