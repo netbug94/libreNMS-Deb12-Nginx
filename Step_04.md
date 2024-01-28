@@ -186,7 +186,7 @@ systemctl restart mariadb ; systemctl restart nginx ; systemctl restart php8.2-f
 ```bash
 http://0.0.0.0/smokeping/
 ```
-- You can also navigate into it through LibreNMS web UI; :house: Button > 
+- You can also navigate into it through LibreNMS web UI; Home Button > Tools > Smokeping
 
 <div align="center">
          
