@@ -217,5 +217,9 @@ http://0.0.0.0/smokeping/
 ![Screenshot from 2024-01-28 08-52-07](https://github.com/hispanicdevian/libreNMS-Deb12-Nginx/assets/135581442/cdf7b9d4-3ea0-49ed-a088-cdc7475631ab)
 </div>
 
+___
+
+- [ ] If everything goes smoothly, back up your progress. By this point, you should know how to create a new checkpoint (backup)
+
 <br>
 <p align="center"> <a href="Step_03.md">:arrow_left:&nbsp;&nbsp;Step 03</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_05.md">Step 05&nbsp; :arrow_right:</a></p>
