@@ -1,7 +1,7 @@
 # Step 04 :shipit:
 ## Smokeping Backend
 
-- [1] Install Smokeping
+- [ ] Install Smokeping
 ```bash
 nala install smokeping -y
 ```
