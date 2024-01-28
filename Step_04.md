@@ -171,8 +171,14 @@ vi /etc/smokeping/config.d/Database
 step     = 60
 ```
 
-- [ ] a
-- [ ] a
+- [ ] Lets manually overide the cron-job by running
+```bash
+/etc/cron.hourly/librenms-smokeping
+```
+- [ ] After all this I like to refhresh everything
+```bah
+systemctl restart mariadb ; systemctl restart nginx ; systemctl restart php8.2-fpm ; systemctl start smokeping
+```
 
 <br>
 <p align="center"> <a href="Step_03.md">:arrow_left:&nbsp;&nbsp;Step 03</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="Step_05.md">Step 05&nbsp; :arrow_right:</a></p>
