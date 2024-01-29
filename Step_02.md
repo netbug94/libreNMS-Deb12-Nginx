@@ -80,7 +80,7 @@ ___
 - [ ] Navigate to 'Console' > click 'Start' > log in using the same credentials > and make sure to update/upgrade
 
 ```bash
-apt update ; apt upgrade ; shutdown now
+apt update ; apt upgrade -y ; shutdown now
 ```
 ___
 
