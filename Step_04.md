@@ -181,13 +181,9 @@ step     = 60
 ```
 ___
 
-- [ ] If you intend to monitor 1,000+ devices, you should increase the FPing capacity
+- [ ] If you intend to monitor 1,000+ devices, you should increase the FPing capacity. It used to be accomplished by adding it to this file, but it currently crashes. You should do your homework there
 ```bash
 vi /opt/librenms/config.php
-```
-- Scroll all the way to the bottom and add this line (the number at the end defines the cap of processes)
-```bash
-$config['smokeping']['probes'] = 5;
 ```
 ___
 
